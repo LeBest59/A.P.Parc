@@ -1,0 +1,50 @@
+
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+/*------------dans le header-------------*/
+header{
+    background-color: #5A189A;
+    display: flex;
+    align-items: center;
+}
+.imglogo{
+    
+}
+.logo{
+    width: 100px;
+    height: 75px;
+}
+.navlien{
+    display: flex ;
+    justify-content: space-around;
+}
+.divlien{
+
+}
+.lien{
+    text-decoration: none;
+    color: white;
+}
+/*---------fin Header----------*/
+/*---------Dans Le Main--------*/
+
+
+
+/*--------a toi de remplir------------*/
+
+
+/*---------Fin-----------*/
+/*-------Footer----------*/
+footer{
+
+}
+.divfooter{
+    background-color: #5A189A;
+}
+.lienfooter{
+    text-decoration: white;
+    color: white;
+}
+/*-----------fin footer-----------*/
