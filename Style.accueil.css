@@ -8,19 +8,23 @@ header{
     background-color: #5A189A;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .imglogo{
-    
+    width: 75px;
+    height: 75px;
 }
 .logo{
     width: 100px;
     height: 75px;
 }
 .navlien{
-    display: flex ;
-    justify-content: space-around;
+    display: inherit;
+    
 }
 .divlien{
+    
+    
 
 }
 .lien{
