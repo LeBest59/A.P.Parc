@@ -1,0 +1,154 @@
+/***************** HEADER ******************** */
+
+.navbar {
+    background-color: #5A189A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 10%;
+    border-radius: 30px;
+}
+
+.navbar ul {
+   display: block;
+   justify-content: space-between;
+}
+ul a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ****************** MAIN ********************* */
+.video{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    background-color: #5A189A;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    color: #fff;
+
+  }
+
+.row2 {
+    display: flex;
+    background-color: #c5c1c1;
+    color: #5A189A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+.col1 {
+    flex: 1; 
+    padding: 1em;
+    border: solid;
+    border-color: #5A189A;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+  .col11 {
+    flex: 1; 
+    padding: 1em;
+    border: solid;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+  .col2 {
+    flex: 1; 
+    padding: 1em;
+    border: solid;
+    border-color: #5A189A;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+
+  }
+  .col21 {
+    flex: 1; 
+    padding: 1em;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+
+  }
+
+.image {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* ***************** FOOTER ********************* */
+
+footer {
+    color: #fff;
+    background: #5A189A;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #c5c1c1;
+}
+
+.main-item {
+    display: flex;
+}
+
+.item {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    padding-top: 10%;
+}
+
+#network {
+    color: #fff;
+}
+
+#network:hover {
+    color: #4e4e4eb4;
+}

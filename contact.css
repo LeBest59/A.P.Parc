@@ -1,0 +1,90 @@
+
+/***************** HEADER ******************** */
+
+.navbar {
+    background-color: #5A189A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 10%;
+    border-radius: 30px;
+}
+
+.navbar ul {
+   display: block;
+   justify-content: space-between;
+}
+ul a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* ********************* MAIN ********************** */
+
+.titre_principal{
+    text-align: center;
+    color: #5A189A;
+    margin-top: 30px;
+}
+.nom, .prénom, .mail, .phone, .message {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5A189A;
+}
+.button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+button:hover {
+    background-color: #5A189A;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+
+
+/* ***************** FOOTER ********************* */
+
+footer {
+    color: #fff;
+    background: #5A189A;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #c5c1c1;
+}
+
+.main-item {
+    display: flex;
+}
+
+.item {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    padding-top: 10%;
+}
+
+#network {
+    color: #fff;
+}
+
+#network:hover {
+    color: #4e4e4eb4;
+}

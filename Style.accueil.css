@@ -28,6 +28,7 @@ header{
 
 }
 .lien{
+    justify-content: space-around;
     text-decoration: none;
     color: white;
 }
