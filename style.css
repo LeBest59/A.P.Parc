@@ -1,0 +1,166 @@
+/***************** HEADER ******************** */
+
+.navbar {
+    background-color: #5A189A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 10%;
+    border-radius: 30px;
+}
+
+.navbar ul {
+   display: block;
+   justify-content: space-between;
+}
+ul a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ****************** MAIN ********************* */
+.video{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.moment {
+    flex: 1; 
+    padding: 1em;
+    border: solid;
+    border-color: #5A189A;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+
+.contagion1{
+    height:150px;
+
+}
+.contagion2 {
+    height: 200px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #5A189A;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+button:hover {
+    background-color: #fff;
+    color: #5A189A;
+    transition: 0.6s;
+}
+button a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #5A189A;
+}
+.titre {
+    color: #fff;
+    background-color: #5A189A;
+    text-align: center;
+    margin-top: 20px;
+}
+.carte {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* ***************** FOOTER ********************* */
+
+footer {
+    color: #fff;
+    background: #5A189A;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #c5c1c1;
+}
+
+.main-item {
+    display: flex;
+}
+
+.item {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    padding-top: 10%;
+}
+
+#network {
+    color: #fff;
+}
+
+#network:hover {
+    color: #4e4e4eb4;
+}
+
+@media screen and (min-width:360px) and (max-width: 760px){
+    /* navbar */
+    .logo {
+        height: 80px;
+    }
+    .navbar ul {
+        margin-right: 50px;
+    }
+
+    /* main */
+    .video{
+        display: none;
+    }
+    .moment {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .contagion2{
+        margin-bottom: 10px;
+    }
+    .contagion2{
+        display: none;
+    }
+    .col-2 h3, .col-2 h5 {
+        display: none;
+    }
+    /* footer */
+    .carte {
+        height: 350px;
+        width: 300px;
+    }
+    .item h2 {
+        font-size: 1em;
+        line-height: -3em;
+    }
+}
