@@ -59,6 +59,10 @@ ul a {
 }
 button {
     background-color: #5A189A;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 28887f13c7f20d0e9163771604df33b007eee26d
 }
 button a {
     text-decoration: none;
@@ -126,6 +130,7 @@ footer a:hover {
 
 #network:hover {
     color: #4e4e4eb4;
+<<<<<<< HEAD
 }
 
 @media screen and (min-width:360px) and (max-width: 760px){
@@ -163,4 +168,6 @@ footer a:hover {
         font-size: 1em;
         line-height: -3em;
     }
+=======
+>>>>>>> 28887f13c7f20d0e9163771604df33b007eee26d
 }
